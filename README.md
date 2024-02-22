@@ -1,5 +1,9 @@
-# Granblue Fantasy: Relink Slimepede Farm
-Simple AutoHotKey script I made for grinding the 'Slimepede' mission in Granblue Fantasy: Relink. Grinding it is a slog, and I wanted to automate that so that I can leave my pc when I go to sleep.
+# Original by Wielkimati
+A fork just to keep the modified script safe ig
+
+# Granblue Fantasy: Relink Slimepede + Golemology 103 Farm
+Simple AutoHotKey script I made for grinding the 'Slimepede' and 'Golemology 103' missions in Granblue Fantasy: Relink. Grinding it is a slog, and I wanted to automate that so that I can leave my pc when I go to sleep.
+
 
 Written using AutoHotKey V2.
 ## General Information
@@ -10,6 +14,13 @@ This script was made with Rackham as your active character in mind. It will:
 - Rotare around and shoot, in hopes of aggroing as many slimes it can.
 - After the mission ends, it will spam left mouse button and wait until you get back to town before repeating this whole loop.
 
+## For Golemology 103
+It is more or less the same, except Rackam does not move and just continually shoots
+I farm Golemology mostly for more Silver Centrums and Exceptional Refinium, golem drops can also be exchanged for Silver Centrum if you manually run Revenge of the Hordes (Maniac) for Fortitude Crystals L. 
+
+I could try and modify the script so that Rackam doesn't immediately get the aggro on start.
+
+## Slimepede: 
 This was made with consistency in mind. The idea is to have Rackham aggro as many slimes he can, so he, and the rest of your CPU team, can just nuke the remaining slimes in hopes of spawning the rainbow one. The spawn rate for him is very low though, but I still managed to get 3 killed when I left this script running during the night for testing.
 
 I tried writting the version of this script that'd not go back into the town, but there was always the problem of everything getting slightly out of sync due to varying loading times and stuff across the machines. This is the most consistent version I came up with, so I hope it'll help someone else.
